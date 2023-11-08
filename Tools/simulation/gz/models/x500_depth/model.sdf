@@ -13,5 +13,11 @@
       <child>OakD-Lite/base_link</child>
       <pose relative_to="base_link">.12 .03 .242 0 0 0</pose>
     </joint>
+    <plugin filename="gz-sim-gst-camera-system" name="gz::sim::systems::GstCamera">
+      <useCuda>0</useCuda>
+      <udpHost>127.0.0.1</udpHost>
+      <udpPort>5600</udpPort>
+      <rtmpLocation>rtmp://localhost:1935/live</rtmpLocation>
+    </plugin>
   </model>
 </sdf>
