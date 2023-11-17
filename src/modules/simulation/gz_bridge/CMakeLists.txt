@@ -64,6 +64,8 @@ if(gz-transport_FOUND)
 			GZMixingInterfaceESC.hpp
 			GZMixingInterfaceServo.cpp
 			GZMixingInterfaceServo.hpp
+			GZMixingInterfaceCamera.cpp
+			GZMixingInterfaceCamera.hpp
 		DEPENDS
 			mixer_module
 			px4_work_queue
